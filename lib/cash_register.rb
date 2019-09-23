@@ -25,7 +25,7 @@ class CashRegister
       value.pop
       
       if value == nil
-        @total = 0
+        @total = 0.0
       end
     end
   end
