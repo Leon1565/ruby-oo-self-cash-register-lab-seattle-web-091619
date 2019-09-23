@@ -20,10 +20,8 @@ class CashRegister
     if @discount == nil
       return "There is no discount to display."
     else
-      
+      @total = total - total * discount / 100.00
     end
-    
-    @total = total - total * discount / 100.00
   end
   
   def void_last_transaction
