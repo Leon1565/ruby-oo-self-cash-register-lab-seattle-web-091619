@@ -19,6 +19,10 @@ class CashRegister
   def apply_discount
     @total = total - total * discount / 100.00
   end
+  
+  def void_last_transaction
+    
+  end
 end
 
 
