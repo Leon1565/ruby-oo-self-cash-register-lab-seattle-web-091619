@@ -23,10 +23,6 @@ class CashRegister
   def void_last_transaction
     @total_after_discount.each do |value|
       value.pop
-      
-      if value == nil
-        @total = 0.0
-      end
     end
   end
 end
