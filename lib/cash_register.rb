@@ -17,6 +17,10 @@ class CashRegister
   end
   
   def apply_discount
+    if @discount == nil
+      
+    end
+    
     @total = total - total * discount / 100.00
   end
   
