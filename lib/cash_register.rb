@@ -5,7 +5,6 @@ class CashRegister
     @discount = discount
     @total = total
     @total_after_discount = []
-    @quantity = quantity
   end
   
   def total
@@ -14,7 +13,7 @@ class CashRegister
   
   def add_item(title, price, quantity = 0)
     self.total += price
-    
+    @quantity = quantity
   end
 end
 
