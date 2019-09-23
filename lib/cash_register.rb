@@ -21,9 +21,7 @@ class CashRegister
   end
   
   def void_last_transaction
-    @total_after_discount.each do |value|
-      value.pop
-    end
+    
   end
 end
 
