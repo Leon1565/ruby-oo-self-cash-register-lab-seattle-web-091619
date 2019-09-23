@@ -22,9 +22,7 @@ class CashRegister
   
   def void_last_transaction
     @total_after_discount.pop
-    if @total_after_discount = []
-      @total = 0
-    end
+    
   end
 end
 
